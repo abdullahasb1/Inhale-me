@@ -14,6 +14,7 @@ document.getElementById("orderForm").addEventListener("submit", function(e){
   const phone = this.phone.value;
   const product = this.product.value;
 
-  const url = `https://wa.me/92300024226?text=📦*New Order*%0A👤 Name: ${name}%0A📞 Phone: ${phone}%0A🛒 Product: ${product}`;
+  const url = `https://wa.me/923000242426?text=📦*New Order*%0A👤 Name: ${name}%0A📞 Phone: ${phone}%0A🛒 Product: ${product}`;
   window.open(url,"_blank");
 });
+
